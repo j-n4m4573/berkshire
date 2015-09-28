@@ -1,0 +1,77 @@
+
+html {
+background-color: #ffffff;
+}
+
+h1 {
+ font-weight: bold;
+ font-size: 18px;
+ text-align: center;
+}
+
+#Big {
+  font-size: 28px;
+  color: #000080;
+}
+
+#center {
+  text-align: center;
+}
+
+#linebreak {
+  display: block;
+}
+
+p {
+  color: #000080;
+}
+
+li {
+  color: #000080;
+  margin: 3em;
+}
+
+a {
+  color: #800080;
+}
+
+a:visited {
+  color: #ff0000;
+  }
+
+div {
+  -webkit-column-count: 2;
+}
+
+span {
+  font-size: 12px;
+  color: black;
+}
+
+.hline { width:100%; height:1px; background: #000000 }
+
+/*
+	What is important to know when linking an external file (like a stylesheet) to an HTML file?
+
+	It is important to know the exact location of the file, the path, when linking to an html file.
+
+	What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+	
+	We used id's and spans to change the positioning of the links and the main title. Overall the complete 
+	project came out like we wanted it. 
+
+	What CSS did you use to modify the element style (like size, color, etc.)
+	Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+	
+	we used id's to change color, font size and the text alignment, but we should have used classes because
+  using classes are the best practices for web design.
+
+	When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+  Their code base was a little bit cleaner and easier to read then ours because they used better spacing in between sections of the webpage.
+  I think their code may have followed best practices and ours may need a little work. 
+*/
+
+
+
+
+
